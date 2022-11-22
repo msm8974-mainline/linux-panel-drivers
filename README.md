@@ -1,6 +1,6 @@
 # linux-panel-drivers
 This repository contains the [linux-mdss-dsi-panel-driver-generator] configuration
-for all the generated panel drivers used in [msm8916-mainline/linux]. Eventually,
+for all the generated panel drivers used in [msm8974-mainline/linux]. Eventually,
 those drivers should be upstreamed but it's not clear yet how so many panel drivers
 can be upstreamed in a maintainable way.
 
@@ -9,13 +9,13 @@ changes are made upstream.
 
 ## Usage
 ```
-$ git clone --recursive https://github.com/msm8916-mainline/linux-panel-drivers.git
+$ git clone --recursive https://github.com/msm8974-mainline/linux-panel-drivers.git
 ```
 
 or alternatively:
 
 ```
-$ git clone https://github.com/msm8916-mainline/linux-panel-drivers.git
+$ git clone https://github.com/msm8974-mainline/linux-panel-drivers.git
 $ cd linux-panel-drivers
 $ git submodule update --init
 ```
@@ -38,4 +38,4 @@ Then, create a new config script in the `config` folder with the options for
 [linux-mdss-dsi-panel-driver-generator] and the panels to generate.
 
 [linux-mdss-dsi-panel-driver-generator]: https://github.com/msm8916-mainline/linux-mdss-dsi-panel-driver-generator
-[msm8916-mainline/linux]: https://github.com/msm8916-mainline/linux
+[msm8974-mainline/linux]: https://github.com/msm8974-mainline/linux

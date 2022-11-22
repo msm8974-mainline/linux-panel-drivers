@@ -2,8 +2,8 @@
 set -eu
 shopt -s extglob
 
-PROJECT="msm8916"
-REPOSITORY="msm8916-mainline/linux-panel-drivers"
+PROJECT="msm8974"
+REPOSITORY="msm8974-mainline/linux-panel-drivers"
 KCONFIG="CONFIG_DRM_PANEL_${PROJECT^^}_GENERATED"
 GENERATOR="linux-mdss-dsi-panel-driver-generator"
 
