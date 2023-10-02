@@ -23,7 +23,7 @@ declare -A PANELS
 declare -a kconfig_lines
 
 KCONFIG_HEAD="\
-menu \"MSM8916 panel drivers generated with $GENERATOR\"
+menu \"MSM8974 panel drivers generated with $GENERATOR\"
 	depends on GPIOLIB && OF && REGULATOR
 	depends on DRM_MIPI_DSI
 
